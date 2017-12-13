@@ -3,6 +3,9 @@
 ################################################################################
 
 /.vs
-/bin
-/obj
 /packages/NLog.4.4.12
+/BoboTech.Logger/bin
+/BoboTech.Logger/obj
+/BoboTech.Logger.UnitTest/bin
+/BoboTech.Logger.UnitTest/obj
+/packages

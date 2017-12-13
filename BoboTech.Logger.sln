@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoboTech.Logger", "BoboTech.Logger.csproj", "{7DBCE56C-C7FD-437E-99C1-D663090768B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoboTech.Logger", "BoboTech.Logger\BoboTech.Logger.csproj", "{7DBCE56C-C7FD-437E-99C1-D663090768B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoboTech.Logger.UnitTest", "BoboTech.Logger.UnitTest\BoboTech.Logger.UnitTest.csproj", "{1F32816A-14A0-48B3-808F-DEBD9D16C4BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{7DBCE56C-C7FD-437E-99C1-D663090768B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DBCE56C-C7FD-437E-99C1-D663090768B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DBCE56C-C7FD-437E-99C1-D663090768B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F32816A-14A0-48B3-808F-DEBD9D16C4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F32816A-14A0-48B3-808F-DEBD9D16C4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F32816A-14A0-48B3-808F-DEBD9D16C4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F32816A-14A0-48B3-808F-DEBD9D16C4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {22A5B486-2ADE-4439-8F99-17EBA930620D}
+		SolutionGuid = {1F01BA33-891F-4078-BD6D-A29CD2960705}
 	EndGlobalSection
 EndGlobal
