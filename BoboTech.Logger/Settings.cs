@@ -44,7 +44,7 @@ namespace BoboTech.Logger
             /// </summary>
             public static string Company => _company.Value;
 
-            static Lazy<string> _name = new Lazy<string>(() => ConfigurationManager.AppSettings.AllKeys.Contains($"{nameof(App)}.{nameof(Company)}") ? ConfigurationManager.AppSettings[$"{nameof(App)}.{nameof(Company)}"] : "Logger");
+            static Lazy<string> _name = new Lazy<string>(() => ConfigurationManager.AppSettings.AllKeys.Contains($"{nameof(App)}.{nameof(Name)}") ? ConfigurationManager.AppSettings[$"{nameof(App)}.{nameof(Name)}"] : "Logger");
 
             /// <summary>
             /// App name setting. Defaults to Logger.
