@@ -9,3 +9,5 @@
 /BoboTech.Logger.UnitTest/bin
 /BoboTech.Logger.UnitTest/obj
 /packages
+/.localhistory
+/BoboTech.Logger/*.nupkg

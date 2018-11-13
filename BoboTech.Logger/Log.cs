@@ -5,6 +5,7 @@ using NLog.Layouts;
 using NLog.Targets;
 using System;
 using System.Linq;
+using System.Text;
 
 namespace BoboTech.Logger
 {
@@ -59,13 +60,17 @@ namespace BoboTech.Logger
             {
                 Name = "JsonLog",
                 FileName = Layout.FromString($"${{specialfolder:folder={Settings.Log.Location}}}/{Settings.App.Company}/{Settings.App.Name}/logs/${{shortdate}}.JsonLog"),
-                Layout = jsonLayout
+                Layout = jsonLayout,
+                Encoding = Encoding.UTF8,
+                //Footer - this should be useful
+                //Header - this should be useful
             };
             var fileTarget = new FileTarget
             {
                 Name = "FileLog",
                 FileName = Layout.FromString($"${{specialfolder:folder={Settings.Log.Location}}}/{Settings.App.Company}/{Settings.App.Name}/logs/${{shortdate}}.log"),
-                Layout = Layout.FromString("${longdate} ${pad:padding=5:inner=${level}} [${threadid}] ${caller}: ${message}${onexception:inner=${newline}${trim-whitespace:trimWhiteSpace=true:inner=${errorId} ${exception:format=toString}}}")
+                Layout = Layout.FromString("${longdate} ${pad:padding=5:inner=${level}} [${threadid}] ${caller}: ${message}${onexception:inner=${newline}${trim-whitespace:trimWhiteSpace=true:inner=${errorId} ${exception:format=toString}}}"),
+                Encoding = Encoding.UTF8
             };
             var consoleTarget = new ConsoleTarget
             {
