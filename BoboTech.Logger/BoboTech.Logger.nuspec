@@ -4,15 +4,15 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <authors>BoboTech</authors>
+    <owners>BoboTech</owners>
     <licenseUrl>https://github.com/olteanubogdan/BoboTech.Logger/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/olteanubogdan/BoboTech.Logger</projectUrl>
     <iconUrl>http://olteanubogdan.com/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>First release.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
+    <description>NLog wrapper</description>
+    <releaseNotes>Use UTF8 for file encoding.</releaseNotes>
+    <copyright>BoboTech 2018</copyright>
     <tags>BoboTech log logger NLog wrapper</tags>
   </metadata>
 </package>

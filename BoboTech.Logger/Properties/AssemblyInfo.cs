@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BoboTech")]
 [assembly: AssemblyProduct("BoboTech.Logger")]
-[assembly: AssemblyCopyright("Copyright © BoboTech 2017")]
+[assembly: AssemblyCopyright("Copyright © BoboTech 2018")]
 [assembly: AssemblyTrademark("BoboTech")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("17.12.16155.0")]
-[assembly: AssemblyFileVersion("17.12.16155.0")]
+[assembly: AssemblyVersion("18.11.13105.0")]
+[assembly: AssemblyFileVersion("18.11.13105.0")]
