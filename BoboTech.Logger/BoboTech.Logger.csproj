@@ -17,7 +17,15 @@
     <AssemblyVersion>19.3.1123.0</AssemblyVersion>
     <FileVersion>19.3.1123.0</FileVersion>
     <PackageIconUrl>http://olteanubogdan.com/favicon.ico</PackageIconUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.5.11" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
